@@ -1,0 +1,16 @@
+<ul ngbNav #nav="ngbNav" class="nav-tabs">
+	<li ngbNavItem class="left">
+		<a ngbNavLink routerLink="home" class="btn btn-outline-secondary me-2" placement="bottom" ngbTooltip="Home">Home</a>
+	</li>
+	<li ngbNavItem class="left">
+		<a ngbNavLink routerLink="learning" class="btn btn-outline-secondary me-2" placement="bottom" ngbTooltip="Learning">Learning</a>
+	</li>
+  <li ngbNavItem class="left">
+		<a ngbNavLink routerLink="techStack" class="btn btn-outline-secondary me-2" placement="bottom" ngbTooltip="Tech Stack">Tech Stack</a>
+	</li>
+  <li ngbNavItem class="right">
+		<a ngbNavLink routerLink="signup" class="btn btn-outline-secondary me-2" placement="bottom" ngbTooltip="LogIn/SignUp">LogIn/SignUp</a>
+	</li>
+</ul>
+
+<div class="output"><router-outlet></router-outlet></div>

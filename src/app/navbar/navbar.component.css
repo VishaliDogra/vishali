@@ -1,0 +1,22 @@
+.output{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul{
+  background : linear-gradient(to left ,#383bfd  30px, #5356fd  250px, #bb73f7  400px, #976dfa 800px, #f7475f  1400px);
+  /*background-color: blueviolet;
+  background : linear-gradient(to left ,#7f81ff  30px, #f38bfc  250px, #8691f5  500px, #de6dfa 1000px, #6b92fc  1400px);*/
+  padding: 10px;
+  font-weight: bold;
+}
+a{
+  color: rgb(247, 245, 250);
+}
+.right{
+padding-left: 700px;
+}
+.left{
+  padding-left: 30px;
+  padding-right: 20px;
+}

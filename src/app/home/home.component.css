@@ -1,0 +1,28 @@
+img{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin: 50px;
+  border: 3px solid rgb(157, 140, 252);
+  box-shadow: 0 0 10px 2px rgb(253, 116, 192);
+}
+.cont{
+  background: transparent;
+  backdrop-filter: blur(30px);
+  position: fixed;
+  inset: 0px;
+  height: 300px;
+  box-shadow: 5px 10px 10px 5px rgb(197, 147, 255), 0 20px 20px 0 rgb(122, 109, 238) ;
+  display: flex;
+  border: white;
+  border: 10px;
+  margin: auto 50px;
+  justify-content: center;
+  padding: 50px;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+.cont:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
