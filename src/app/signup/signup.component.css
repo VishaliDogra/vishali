@@ -36,3 +36,12 @@ button{
   border-radius: 20px;
   box-shadow: 2px 2px 2px 2px rgb(197, 147, 255), 0 5px 5px 0 rgb(122, 109, 238) ;
 }
+@media only screen and (max-width:420px){
+  .container{
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+  input, button{
+    width: 250px;
+  }
+}

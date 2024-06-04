@@ -1,6 +1,6 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
-import { NgbNavConfig, NgbNavModule, NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbNavModule, NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-navbar',
@@ -10,10 +10,4 @@ import { NgbNavConfig, NgbNavModule, NgbTooltipModule } from '@ng-bootstrap/ng-b
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-  title = 'Vishali Dogra';
-  @Input() disabled = true;
-  constructor(config: NgbNavConfig){
-    config.destroyOnHide = false;
-		config.roles = false;
-  }
 }
